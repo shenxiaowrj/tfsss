@@ -42,6 +42,6 @@ deep_thoughts
 
 2022-04-06 星期三 /transformer难点理解与实现/notes/1,2,3,4,5,6.7.9
 
-                  /Transformer_Example-main/source_functional.py,source_activation.py
+                    /Transformer_Example-main/source_functional.py,source_activation.py
                   
 2022-04-07 星期四 /transformer难点理解与实现/notes/8
