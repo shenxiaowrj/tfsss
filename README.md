@@ -35,3 +35,13 @@ It also includes a series of related applications of transformers.
 deep_thoughts
 
 在此 特别感谢三位大佬的无私奉献和精彩讲解。
+
+更新日志：
+
+2022-04-05 星期二 /Transformer_Example-main/
+
+2022-04-06 星期三 /transformer难点理解与实现/notes/1,2,3,4,5,6.7.9
+
+                  /Transformer_Example-main/source_functional.py,source_activation.py
+                  
+2022-04-07 星期四 /transformer难点理解与实现/notes/8
