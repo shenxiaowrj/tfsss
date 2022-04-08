@@ -46,3 +46,14 @@ deep_thoughts
                     /Transformer_Example-main/source_functional.py,source_activation.py
                   
 2022-04-07 星期四 /transformer难点理解与实现/notes/8
+
+2022-04-07 星期四 /vision_transformer/VIT难点实现/1模型架构
+
+                                                  /2两种不同的img2patch的实现
+                                                  
+                                                  /3剩下的步骤 上半部分
+
+2022-04-08 星期五 /vision_transformer/VIT难点实现/3剩下的步骤 下半部分
+
+
+                                                 
