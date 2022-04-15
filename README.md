@@ -55,5 +55,10 @@ deep_thoughts
 
 2022-04-08 星期五 /vision_transformer/VIT难点实现/3剩下的步骤 下半部分
 
+2022-04-10 星期天 sota模型 实现框架
+
+2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
+
+
 
                                                  
