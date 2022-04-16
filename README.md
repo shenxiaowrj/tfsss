@@ -27,13 +27,13 @@ such as swin transformer
    
 It also includes a series of related applications of transformers.
 
-我观看的transformer相关的视频up主有：
+我观看的transformer相关的视频up主，以及相关的代码参考有：
 
-跟李沐学AI
+跟李沐学AI，https://space.bilibili.com/1567748478
 
-蓝斯诺特
+蓝斯诺特， https://space.bilibili.com/7877324/?spm_id_from=333.999.0.0
 
-deep_thoughts
+deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?spm_id_from=333.999.0.0
 
 在此 特别感谢三位大佬的无私奉献和精彩讲解。
 
@@ -56,6 +56,7 @@ deep_thoughts
 2022-04-08 星期五 /vision_transformer/VIT难点实现/3剩下的步骤 下半部分
 
 2022-04-10 星期天 sota模型 实现框架
+    视频及参考代码来自于：up:布尔艺数 https://space.bilibili.com/1884787846
 
 2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
 
