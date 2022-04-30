@@ -60,6 +60,8 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
 
 2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
 
+2022-04-30 星期六 /swin_trnasformer重建-副本/swin简洁版
+                                           /关系矩阵和mask
 
 
                                                  
