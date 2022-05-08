@@ -67,6 +67,39 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
                                            /关系矩阵和mask
 
     (断断徐徐写了一个多星期，下回要分函数写 都写在一块儿 太乱了)
+    
+2022-05-01~2022-05-04
+
+    看了deedeep_thoughts讲的两个mae的视频
+    
+    然后完成了源码实现
+    
+    但是转换尺度 然后对齐的部分没有看懂 很烦烦 而且还没有实际的训练模型
+    
+    /deep_thoughts  /mae  /note
+    
+                              /argsort2argsort.py
+                              
+                              /note.md
+                              
+                          /engine_finetune.py
+                          
+                          /engine_pretrain.py
+                          
+                          /main_finetune.py
+                          
+                          /mian_finetune.py
+                          
+  提取出未被mask的patch，进入vit模型，将被mask用一个统一的embedding token进行代替 将未被mask的patch和被mask掉的patch还原回原来的顺序的操作没有搞明白
+  
+  2022-05-07 ~ 2022-05-08
+  
+  deep_thoughts 52、Excel/Csv文件数据转成PyTorch张量导入模型代码逐行讲解
+  
+  /deep_thoughts  /excel_csv2tensor_topredict
+  
+                      /csv_exel简洁版.py
+
 
 
                                                  
