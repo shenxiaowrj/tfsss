@@ -99,6 +99,28 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
   /deep_thoughts  /excel_csv2tensor_topredict
   
                       /csv_exel简洁版.py
+  
+  2022-05-13 ~ 2022-05-16
+  deepthoughts 51、基于PyTorch ResNet18的果蔬分类逐行代码讲解
+  
+  这个项目使用了mae模型中的库 和 timm库，可以实现标准化训练和输出，可以作为一个模板来使用，适用其它任务，同时我又将其按功能划分为几个部分，分别为main_train_test transforms
+  
+  backbone engine info args.
+  
+  同时，这个小项目里还有俩个好用的工具，
+  
+  split_dataset 划分数据集
+  
+  stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
+  
+  /deep_thoughts   /fruit_classification_based_maecode    /split_dataset简洁版.py
+  
+                                                          /statistic_mean_std简洁版.py
+                                                          
+                                                          /train实用版.py
+                                                          
+                                                        
+                                                        
 
 
 
