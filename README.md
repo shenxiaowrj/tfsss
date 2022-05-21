@@ -27,15 +27,20 @@ such as swin transformer
    
 It also includes a series of related applications of transformers.
 
-我观看的transformer相关的视频up主，以及相关的代码参考有：
 
-跟李沐学AI，https://space.bilibili.com/1567748478
 
-蓝斯诺特， https://space.bilibili.com/7877324/?spm_id_from=333.999.0.0
+我观看的transformer相关的视频up，以及相关的代码参考有：
 
-deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?spm_id_from=333.999.0.0
+跟李沐学AI，
+
+蓝斯诺特，
+
+deep_thoughts 深度学习每日摘要
 
 在此 特别感谢三位大佬的无私奉献和精彩讲解。
+
+
+
 
 更新日志：
 
@@ -43,20 +48,20 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
 
 2022-04-06 星期三 /transformer难点理解与实现/notes/1,2,3,4,5,6.7.9
 
-                    /Transformer_Example-main/source_functional.py,source_activation.py
+                  /Transformer_Example-main/source_functional.py,source_activation.py
                   
 2022-04-07 星期四 /transformer难点理解与实现/notes/8
 
 2022-04-07 星期四 /vision_transformer/VIT难点实现/1模型架构
 
-                                                  /2两种不同的img2patch的实现
+                                                /2两种不同的img2patch的实现
                                                   
-                                                  /3剩下的步骤 上半部分
+                                                /3剩下的步骤 上半部分
 
 2022-04-08 星期五 /vision_transformer/VIT难点实现/3剩下的步骤 下半部分
 
 2022-04-10 星期天 sota模型 实现框架
-    视频及参考代码来自于：up:布尔艺数 https://space.bilibili.com/1884787846
+    视频及参考代码来自于：up:布尔艺数
 
 2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
 
@@ -78,9 +83,9 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
     
     /deep_thoughts  /mae  /note
     
-                              /argsort2argsort.py
+                          /argsort2argsort.py
                               
-                              /note.md
+                          /note.md
                               
                           /engine_finetune.py
                           
@@ -98,7 +103,7 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
   
   /deep_thoughts  /excel_csv2tensor_topredict
   
-                      /csv_exel简洁版.py
+                  /csv_exel简洁版.py
   
   2022-05-13 ~ 2022-05-16
   deepthoughts 51、基于PyTorch ResNet18的果蔬分类逐行代码讲解
@@ -119,6 +124,25 @@ deep_thoughts 深度学习每日摘要， https://space.bilibili.com/373596439/?
                                                           
                                                           /train实用版.py
                                                           
+  2022-05-17 ~ 2022-05-21
+  deep_thoughts   /46_four_position_embedding     /简洁版
+                                                         /transformer position embedding
+                                                         
+                                                         /vision transformer position embedding 
+                                                         
+                                                         /swin transformer posoition embedding
+                                                         
+                                                         /mae transformer position embedding
+                                                         
+                                                  /笔记版
+                                                         /transformer position embedding
+                                                         
+                                                         /vision transformer position embedding 
+                                                         
+                                                         /swin transformer posoition embedding
+                                                         
+                                                         /mae transformer position embedding
+                                        
                                                         
                                                         
 
