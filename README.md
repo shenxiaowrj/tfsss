@@ -134,8 +134,7 @@ deep_thoughts 深度学习每日摘要
   
   stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
   
-  /deep_thoughts   
-                   /fruit_classification_based_maecode    
+  /deep_thoughts   /fruit_classification_based_maecode    
   
                                                           /split_dataset简洁版.py
   
