@@ -81,7 +81,8 @@ deep_thoughts 深度学习每日摘要
     
     但是转换尺度 然后对齐的部分没有看懂 很烦烦 而且还没有实际的训练模型
     
-    /deep_thoughts  /mae  /note
+    /deep_thoughts  /mae  
+                          /note
     
                           /argsort2argsort.py
                               
@@ -118,14 +119,17 @@ deep_thoughts 深度学习每日摘要
   
   stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
   
-  /deep_thoughts   /fruit_classification_based_maecode    /split_dataset简洁版.py
+  /deep_thoughts   /fruit_classification_based_maecode    
+                                                          /split_dataset简洁版.py
   
                                                           /statistic_mean_std简洁版.py
                                                           
                                                           /train实用版.py
                                                           
   2022-05-17 ~ 2022-05-21
-  deep_thoughts   /46_four_position_embedding     /简洁版
+  deep_thoughts   /46_four_position_embedding     
+                                                  
+                                                  /简洁版
                                                          /transformer position embedding
                                                          
                                                          /vision transformer position embedding 
