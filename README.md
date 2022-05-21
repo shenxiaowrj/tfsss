@@ -46,13 +46,21 @@ deep_thoughts 深度学习每日摘要
 
 2022-04-05 星期二 /Transformer_Example-main/
 
-2022-04-06 星期三 /transformer难点理解与实现/notes/1,2,3,4,5,6.7.9
+2022-04-06 星期三 /transformer难点理解与实现
 
-                  /Transformer_Example-main/source_functional.py,source_activation.py
+                         /notes
+                                 /1,2,3,4,5,6.7.9
+
+                  /Transformer_Example-main
                   
-2022-04-07 星期四 /transformer难点理解与实现/notes/8
+                         /source_functional.py,source_activation.py
+                  
+2022-04-07 星期四 /transformer难点理解与实现 
+                          /notes/8
 
-2022-04-07 星期四 /vision_transformer/VIT难点实现/1模型架构
+2022-04-07 星期四 /vision_transformer/VIT难点实现
+
+                                                /1模型架构
 
                                                 /2两种不同的img2patch的实现
                                                   
@@ -65,7 +73,9 @@ deep_thoughts 深度学习每日摘要
 
 2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
 
-2022-04-30 星期六 /swin_trnasformer重建-副本/swin简洁版
+2022-04-30 星期六 /swin_trnasformer重建-副本
+
+                                           /swin简洁版
 
                                            /swin笔记版
 
@@ -82,6 +92,7 @@ deep_thoughts 深度学习每日摘要
     但是转换尺度 然后对齐的部分没有看懂 很烦烦 而且还没有实际的训练模型
     
     /deep_thoughts  /mae  
+    
                           /note
     
                           /argsort2argsort.py
@@ -120,6 +131,7 @@ deep_thoughts 深度学习每日摘要
   stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
   
   /deep_thoughts   /fruit_classification_based_maecode    
+  
                                                           /split_dataset简洁版.py
   
                                                           /statistic_mean_std简洁版.py
