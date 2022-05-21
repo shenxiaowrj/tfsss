@@ -66,7 +66,9 @@ deep_thoughts 深度学习每日摘要
                                                   
                                                 /3剩下的步骤 上半部分
 
-2022-04-08 星期五 /vision_transformer/VIT难点实现/3剩下的步骤 下半部分
+2022-04-08 星期五 /vision_transformer/VIT难点实现
+
+                                                /3剩下的步骤 下半部分
 
 2022-04-10 星期天 sota模型 实现框架
     视频及参考代码来自于：up:布尔艺数
@@ -113,7 +115,9 @@ deep_thoughts 深度学习每日摘要
   
   deep_thoughts 52、Excel/Csv文件数据转成PyTorch张量导入模型代码逐行讲解
   
-  /deep_thoughts  /excel_csv2tensor_topredict
+  /deep_thoughts  
+  
+                  /excel_csv2tensor_topredict
   
                   /csv_exel简洁版.py
   
@@ -130,7 +134,8 @@ deep_thoughts 深度学习每日摘要
   
   stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
   
-  /deep_thoughts   /fruit_classification_based_maecode    
+  /deep_thoughts   
+                   /fruit_classification_based_maecode    
   
                                                           /split_dataset简洁版.py
   
