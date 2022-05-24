@@ -145,7 +145,7 @@ deep_thoughts 深度学习每日摘要
                                                           /train实用版.py
                                                           
   2022-05-17 ~ 2022-05-21
-  deep_thoughts   /46_four_position_embedding     
+  /deep_thoughts   /46_four_position_embedding     
                                                   
                                                   /简洁版
                                                          /transformer position embedding
@@ -164,7 +164,13 @@ deep_thoughts 深度学习每日摘要
                                                          /swin transformer posoition embedding
                                                          
                                                          /mae transformer position embedding
-                                        
+                                                        
+ 2022-05-24
+ deep_thoughts    39，convnext模型代码逐行讲解
+ 
+ /deep_thoughts       /convnext
+                              
+                               /39_convnext_model_code
                                                         
                                                         
 
