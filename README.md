@@ -171,6 +171,7 @@ deep_thoughts 深度学习每日摘要
  /deep_thoughts       /convnext
                               
                                /39_convnext_model_code
+ convnext.py 代码来自convnext官方代码库 在源代码的基础上进行了笔记注释 嘿嘿
                                                         
                                                         
 
