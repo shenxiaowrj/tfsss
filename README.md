@@ -1,4 +1,10 @@
 # tfsss
+
+Acknowledgment:
+This project mainly publishes comments for personal understanding of part of the source code of the pytorch framework, comments for personal understanding based on the source code of the published model, and example code for related teaching videos.
+This project is only for helping others learn these great models, and for my own review.
+Special thanks to the authors of the following frameworks and models (pytorch, attention is all you need, convnext, visiontransformer, swintransformer).
+
 我对于transformers相关的一系列学习的笔记
 transformers 变形金刚 或者说 变压器可太火了
 
@@ -43,6 +49,7 @@ deep_thoughts 深度学习每日摘要
 
 
 更新日志：
+2022-08-05 星期五 transformer pytorch源码超详细注释
 
 2022-04-05 星期二 /Transformer_Example-main/
 
