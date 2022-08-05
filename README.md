@@ -2,7 +2,11 @@
 
 Acknowledgment:
 This project mainly publishes comments for personal understanding of part of the source code of the pytorch framework, comments for personal understanding based on the source code of the published model, and example code for related teaching videos.
+
+
 This project is only for helping others learn these great models, and for my own review.
+
+
 Special thanks to the authors of the following frameworks and models (pytorch, attention is all you need, convnext, visiontransformer, swintransformer).
 
 我对于transformers相关的一系列学习的笔记
@@ -49,49 +53,75 @@ deep_thoughts 深度学习每日摘要
 
 
 更新日志：
+
+
 2022-08-05 星期五 transformer pytorch源码超详细注释
 
-2022-04-05 星期二 /Transformer_Example-main/
 
-2022-04-06 星期三 /transformer难点理解与实现
-
-                         /notes
-                                 /1,2,3,4,5,6.7.9
-
-                  /Transformer_Example-main
-                  
-                         /source_functional.py,source_activation.py
-                  
-2022-04-07 星期四 /transformer难点理解与实现 
-                          /notes/8
-
-2022-04-07 星期四 /vision_transformer/VIT难点实现
-
-                                                /1模型架构
-
-                                                /2两种不同的img2patch的实现
+ 2022-05-24
+ deep_thoughts    39，convnext模型代码逐行讲解
+ 
+ /deep_thoughts       /convnext
+                              
+                               /39_convnext_model_code
+ convnext.py 代码来自convnext官方代码库 在源代码的基础上进行了笔记注释 嘿嘿
+ 
+ 
+   2022-05-17 ~ 2022-05-21
+  /deep_thoughts   /46_four_position_embedding     
                                                   
-                                                /3剩下的步骤 上半部分
-
-2022-04-08 星期五 /vision_transformer/VIT难点实现
-
-                                                /3剩下的步骤 下半部分
-
-2022-04-10 星期天 sota模型 实现框架
-    视频及参考代码来自于：up:布尔艺数
-
-2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
-
-2022-04-30 星期六 /swin_trnasformer重建-副本
-
-                                           /swin简洁版
-
-                                           /swin笔记版
-
-                                           /关系矩阵和mask
-
-    (断断徐徐写了一个多星期，下回要分函数写 都写在一块儿 太乱了)
-    
+                                                  /简洁版
+                                                         /transformer position embedding
+                                                         
+                                                         /vision transformer position embedding 
+                                                         
+                                                         /swin transformer posoition embedding
+                                                         
+                                                         /mae transformer position embedding
+                                                         
+                                                  /笔记版
+                                                         /transformer position embedding
+                                                         
+                                                         /vision transformer position embedding 
+                                                         
+                                                         /swin transformer posoition embedding
+                                                         
+                                                         /mae transformer position embedding
+                                                         
+                                                         
+  2022-05-13 ~ 2022-05-16
+  deepthoughts 51、基于PyTorch ResNet18的果蔬分类逐行代码讲解
+  
+  这个项目使用了mae模型中的库 和 timm库，可以实现标准化训练和输出，可以作为一个模板来使用，适用其它任务，同时我又将其按功能划分为几个部分，分别为main_train_test transforms
+  
+  backbone engine info args.
+  
+  同时，这个小项目里还有俩个好用的工具，
+  
+  split_dataset 划分数据集
+  
+  stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
+  
+  /deep_thoughts   /fruit_classification_based_maecode    
+  
+                                                          /split_dataset简洁版.py
+  
+                                                          /statistic_mean_std简洁版.py
+                                                          
+                                                          /train实用版.py
+                            
+                            
+   2022-05-07 ~ 2022-05-08
+  
+  deep_thoughts 52、Excel/Csv文件数据转成PyTorch张量导入模型代码逐行讲解
+  
+  /deep_thoughts  
+  
+                  /excel_csv2tensor_topredict
+  
+                  /csv_exel简洁版.py
+                  
+     
 2022-05-01~2022-05-04
 
     看了deedeep_thoughts讲的两个mae的视频
@@ -120,65 +150,63 @@ deep_thoughts 深度学习每日摘要
                           
   提取出未被mask的patch，进入vit模型，将被mask用一个统一的embedding token进行代替 将未被mask的patch和被mask掉的patch还原回原来的顺序的操作没有搞明白
   
-  2022-05-07 ~ 2022-05-08
   
-  deep_thoughts 52、Excel/Csv文件数据转成PyTorch张量导入模型代码逐行讲解
+2022-04-30 星期六 /swin_trnasformer重建-副本
+
+                                           /swin简洁版
+
+                                           /swin笔记版
+
+                                           /关系矩阵和mask
+
+    (断断徐徐写了一个多星期，下回要分函数写 都写在一块儿 太乱了)
+    
   
-  /deep_thoughts  
-  
-                  /excel_csv2tensor_topredict
-  
-                  /csv_exel简洁版.py
-  
-  2022-05-13 ~ 2022-05-16
-  deepthoughts 51、基于PyTorch ResNet18的果蔬分类逐行代码讲解
-  
-  这个项目使用了mae模型中的库 和 timm库，可以实现标准化训练和输出，可以作为一个模板来使用，适用其它任务，同时我又将其按功能划分为几个部分，分别为main_train_test transforms
-  
-  backbone engine info args.
-  
-  同时，这个小项目里还有俩个好用的工具，
-  
-  split_dataset 划分数据集
-  
-  stastic_mean_std 对一个图片数据集，求均值和方差，依次用作训练过程中的标准化。
-  
-  /deep_thoughts   /fruit_classification_based_maecode    
-  
-                                                          /split_dataset简洁版.py
-  
-                                                          /statistic_mean_std简洁版.py
-                                                          
-                                                          /train实用版.py
-                                                          
-  2022-05-17 ~ 2022-05-21
-  /deep_thoughts   /46_four_position_embedding     
+2022-04-15 星期五 /vision_transformer/vision_tranformer 模型具体实现 并用于训练一个手写数字识别的数据集
+
+
+2022-04-10 星期天 sota模型 实现框架
+    视频及参考代码来自于：up:布尔艺数
+    
+    
+2022-04-08 星期五 /vision_transformer/VIT难点实现
+
+/3剩下的步骤 下半部分
+
+
+2022-04-07 星期四 /vision_transformer/VIT难点实现
+
+                                                /1模型架构
+
+                                                /2两种不同的img2patch的实现
                                                   
-                                                  /简洁版
-                                                         /transformer position embedding
-                                                         
-                                                         /vision transformer position embedding 
-                                                         
-                                                         /swin transformer posoition embedding
-                                                         
-                                                         /mae transformer position embedding
-                                                         
-                                                  /笔记版
-                                                         /transformer position embedding
-                                                         
-                                                         /vision transformer position embedding 
-                                                         
-                                                         /swin transformer posoition embedding
-                                                         
-                                                         /mae transformer position embedding
-                                                        
- 2022-05-24
- deep_thoughts    39，convnext模型代码逐行讲解
+                                                /3剩下的步骤 上半部分
+
+
+2022-04-07 星期四 /transformer难点理解与实现 
+                          /notes/8
+
+
+2022-04-06 星期三 /transformer难点理解与实现
+
+                         /notes
+                                 /1,2,3,4,5,6.7.9
+
+                  /Transformer_Example-main
+                  
+                         /source_functional.py,source_activation.py
+
+
+2022-04-05 星期二 /Transformer_Example-main/
+
+
+
+
  
- /deep_thoughts       /convnext
-                              
-                               /39_convnext_model_code
- convnext.py 代码来自convnext官方代码库 在源代码的基础上进行了笔记注释 嘿嘿
+  
+
+
+
                                                         
                                                         
 
